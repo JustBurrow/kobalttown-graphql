@@ -1,0 +1,3 @@
+extend type Query {
+    postList(size: Int, offset: Float): [Post]!
+}
