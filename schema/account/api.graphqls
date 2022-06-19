@@ -1,0 +1,3 @@
+extend type Query {
+    accountList(size: Int, offset: Float): [Account]!
+}
